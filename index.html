@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>lesson_23</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+			</header>
+			<main class="page">
+				<div class="page__operators operators">
+					<div class="operators__container">
+						<h2 class="operators__main-tittle">Оператори</h2>
+						<div class="operators__variant">
+							<h2 class="operators__tittle">Варіант 1</h2>
+							<p class="operators__paragraph"><span>Невірно</span>, крнсоль вивде значення : '35-22'</p>
+						</div>
+						<div class="operators__variant">
+							<h2 class="operators__tittle">Варіант 2</h2>
+							<p class="operators__paragraph">Вірно</p>
+						</div>
+						<div class="operators__variant">
+							<h2 class="operators__tittle">Варіант 3</h2>
+							<p class="operators__paragraph"><span>Невірно</span>, консоль видасть помилку</p>
+						</div>
+						<div class="operators__variant">
+							<h2 class="operators__tittle">Варіант 4</h2>
+							<p class="operators__paragraph"><span>Невірно</span>, консоль поверне 0</p>
+						</div>
+						<div class="operators__variant">
+							<h2 class="operators__tittle">Варіант 5</h2>
+							<p class="operators__paragraph"><span>Невірно</span>, повернеться 11</p>
+						</div>
+						<div class="operators__variant">
+							<h2 class="operators__tittle">Варіант 6</h2>
+							<p class="operators__paragraph">Повернеться "0"</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__if-else if-else">
+					<div class="if-else__container">
+						<h2 class="if-else__main-tittle">if and elese</h2>
+						<div class="if-else__variant">
+							<h2 class="if-else__tittle">Варіант 1</h2>
+							<p class="if-else__paragraph"><span>Невірно</span>, в консоль виведеться значення "Ложь"</p>
+						</div>
+						<div class="if-else__variant">
+							<h2 class="if-else__tittle">Варіант 2</h2>
+							<p class="if-else__paragraph">Вірно</p>
+						</div>
+						<div class="if-else__variant">
+							<h2 class="if-else__tittle">Варіант 3</h2>
+							<p class="if-else__paragraph">Вірно</p>
+						</div>
+						<div class="if-else__variant">
+							<h2 class="if-else__tittle">Варіант 4</h2>
+							<p class="oif-else__paragraph">Вірно</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__cycles cycles">
+					<div class="cycles__container">
+						<h2 class="cycles__main-tittle">Цикли</h2>
+						<div class="cycles__task">
+							<h2 class="cycles__tittle">Завдання 1</h2>
+							<p class="cycles__paragraph"> let num = 1;<br>
+								for (; num <6; num++) {
+									console.log(num);<br>
+								}
+							</p>
+						</div>
+						<div class="cycles__task">
+							<h2 class="cycles__tittle">Завдання 2</h2>
+							<p class="cycles__paragraph"><span>Невірно</span>, останні результат буде "1"</p>
+						</div>
+						<div class="cycles__task">
+							<h2 class="cycles__tittle">Завдання 3</h2>
+							<p class="cycles__paragraph">let num = 0;<br>
+								while (num <3) {<br>
+								console.log(`Число: ${num}`);<br>
+								num++<br>
+								}
+							</p>
+						</div>
+						<div class="cycles__task">
+							<h2 class="cycles__tittle">Завдання 4</h2>
+							<p class="cycles__paragraph">firstFor: for (let num = 0; num <2; num++) { <br>
+								for (let size= 0; size <3; size++) { <br>
+								console.log(size);<br>
+								if (size == 1) break firstFor<br>
+								}<br>
+								}<br></p>
+						</div>
+					</div>
+				</div>
+				<div class="page__numbers numbers">
+					<div class="numbers__container">
+						<h2 class="numbers__main-tittle">Числа</h2>
+						<div class="numbers__task">
+							<h2 class="numbers__tittle">Завдання 1</h2>
+							<p class="numbers__paragraph">let numZero = 1.005 + Number.EPSILON; <br>
+								let numOne = Math.round(numZero * 100) / 100;<br>
+								console.log(numOne); </p>
+						</div>
+						<div class="numbers__task">
+							<h2 class="numbers__tittle">Завдання 2</h2>
+							<p class="numbers__paragraph">let value = parseFloat('135.58px');<br>
+								console.log(value); </p>
+						</div>
+						<div class="numbers__task">
+							<h2 class="numbers__tittle">Завдання 3</h2>
+							<p class="numbers__paragraph"> let value = 58 + "Фрілансер";<br>
+								if (isNaN(value)) {<br>
+								console.log('Результат виразу NaN');<br>
+								}</p>
+						</div>
+						<div class="numbers__task">
+							<h2 class="numbers__tittle">Завдання 4</h2>
+							<p class="numbers__paragraph"> let value = Math.max(10, 58, 39, -150, 0);<br>
+								console.log(value);</p>
+						</div>
+						<div class="numbers__task">
+							<h2 class="numbers__tittle">Завдання 5</h2>
+							<p class="numbers__paragraph">let value = Math.floor(58.585);<br>
+								console.log(value);
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__strings strings">
+					<div class="strings__container">
+						<h2 class="strings__main-tittle">Рядки</h2>
+						<div class="strings__task">
+							<h2 class="strings__tittle">Завдання 1</h2>
+							<p class="strings__paragraph">Цей запис вірний, якщо задум вивести в консоль значення Привіт! Я ${fls} <br>
+								якщо ми хочемо вивести значення "Привіт! Я фрілансер", то варто запсисати наступним чином: <br>
+								let fls = "фрілансер";<br>
+								let text = `Привіт! Я ${fls}`;<br>
+								console.log(text);</p>
+						</div>
+						<div class="strings__task">
+							<h2 class="strings__tittle">Завдання 2</h2>
+							<p class="strings__paragraph">let text = 'фрілансер';<br>
+								let someLetter = text[5];<br>
+								console.log(someLetter);</p>
+						</div>
+						<div class="strings__task">
+							<h2 class="strings__tittle">Завдання 3</h2>
+							<p class="strings__paragraph"><span>Невірно</span>, в консоль буде виведено значення "123456"</p>
+						</div>
+						<div class="strings__task">
+							<h2 class="strings__tittle">Завдання 4</h2>
+							<p class="strings__paragraph">let text = 'фрілансер';<br>
+								console.log(text.toLocaleUpperCase());
+							</p>
+						</div>
+						<div class="strings__task">
+							<h2 class="strings__tittle">Завдання 5</h2>
+							<p class="strings__paragraph">let text = 'фрілансер';<br>
+								console.log(text.slice(3, 6));</p>
+						</div>
+						<div class="strings__task">
+							<h2 class="strings__tittle">Завдання 6</h2>
+							<p class="strings__paragraph">false</p>
+						</div>
+
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+			</footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
